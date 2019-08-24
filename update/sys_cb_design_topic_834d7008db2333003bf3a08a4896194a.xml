@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Update NeedIt Records">0b4df0c4db2333003bf3a08a489619e8</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"14e056a03397477fa121a9c5e01eb7b9","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"14e056a03397477fa121a9c5e01eb7b9"}],"goals":[{"name":"primary","trigger_id":"14e056a03397477fa121a9c5e01eb7b9","nodes":[{"type":"StartGoal","goal_id":"0c396c6c4f9041bba0d17cf9caaa939c","greeting_msg":{"type":"String","mode":"string","value":""},"id":"e63baa678a634ab98fd05953c9d0f2d9","name":"Start"},{"type":"TerminateGoal","goal_id":"0c396c6c4f9041bba0d17cf9caaa939c","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"fd6092c5f28c4a2f9ba6c25dc0c73067","name":"End"}],"edges":[{"type":"Edge","source_node_id":"e63baa678a634ab98fd05953c9d0f2d9","target_node_id":"fd6092c5f28c4a2f9ba6c25dc0c73067","id":"e69e5ead486b4eb095b694afca648f4a"}],"id":"0c396c6c4f9041bba0d17cf9caaa939c"}],"script_variables":[],"glide_variables":[],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"global","id":"8a968837db9333003bf3a08a489619eb","name":"Update NeedIt Records","key_phrases":["Update NeedIt Records","needit request"],"nlu_provider":"","nlu_model":"","nlu_intent":"","flexible_conversation_switching":false,"design_category":""}</design_definition>
+        <design_topic_id>8a968837db9333003bf3a08a489619eb</design_topic_id>
+        <name>Update NeedIt Records</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:54:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>834d7008db2333003bf3a08a4896194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_307886_needit_vi">8d4544ffdb5333003bf3a08a4896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">8d4544ffdb5333003bf3a08a4896199a</sys_scope>
+        <sys_update_name>sys_cb_design_topic_834d7008db2333003bf3a08a4896194a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:54:53</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
